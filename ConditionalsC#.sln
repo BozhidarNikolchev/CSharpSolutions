@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionalsC#", "ConditionalsC#\ConditionalsC#.csproj", "{2F923999-160D-472A-9676-A6EEFAE0F527}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimePlus15Minutes", "TimePlus15Minutes\TimePlus15Minutes.csproj", "{B5901A3B-0784-4960-9CBF-BD114DD54F84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F923999-160D-472A-9676-A6EEFAE0F527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F923999-160D-472A-9676-A6EEFAE0F527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F923999-160D-472A-9676-A6EEFAE0F527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F923999-160D-472A-9676-A6EEFAE0F527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5901A3B-0784-4960-9CBF-BD114DD54F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5901A3B-0784-4960-9CBF-BD114DD54F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5901A3B-0784-4960-9CBF-BD114DD54F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5901A3B-0784-4960-9CBF-BD114DD54F84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
