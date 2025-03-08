@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C#RamdomConditionals", "C#RamdomConditionals\C#RamdomConditionals.csproj", "{56A1F8B3-29CD-4D69-8A36-4AF3E9BECF28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodzillavsKong", "GodzillavsKong\GodzillavsKong.csproj", "{10DA5869-2EA2-4ABF-83D3-A1C78F605DC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56A1F8B3-29CD-4D69-8A36-4AF3E9BECF28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56A1F8B3-29CD-4D69-8A36-4AF3E9BECF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56A1F8B3-29CD-4D69-8A36-4AF3E9BECF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56A1F8B3-29CD-4D69-8A36-4AF3E9BECF28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10DA5869-2EA2-4ABF-83D3-A1C78F605DC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10DA5869-2EA2-4ABF-83D3-A1C78F605DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10DA5869-2EA2-4ABF-83D3-A1C78F605DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10DA5869-2EA2-4ABF-83D3-A1C78F605DC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
