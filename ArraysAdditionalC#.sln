@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopIntegers", "TopIntegers\TopIntegers.csproj", "{2E082B5A-3B86-4C36-9AD3-A9C1E4081C1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualSum", "EqualSum\EqualSum.csproj", "{BA7B72AE-57CE-4A8F-AE8E-2409E3548417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxSequenceOfEqualElements", "MaxSequenceOfEqualElements\MaxSequenceOfEqualElements.csproj", "{7B3581F4-ABA8-420B-A530-6DCD05ACCF59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E082B5A-3B86-4C36-9AD3-A9C1E4081C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E082B5A-3B86-4C36-9AD3-A9C1E4081C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E082B5A-3B86-4C36-9AD3-A9C1E4081C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E082B5A-3B86-4C36-9AD3-A9C1E4081C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA7B72AE-57CE-4A8F-AE8E-2409E3548417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA7B72AE-57CE-4A8F-AE8E-2409E3548417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA7B72AE-57CE-4A8F-AE8E-2409E3548417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA7B72AE-57CE-4A8F-AE8E-2409E3548417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B3581F4-ABA8-420B-A530-6DCD05ACCF59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B3581F4-ABA8-420B-A530-6DCD05ACCF59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B3581F4-ABA8-420B-A530-6DCD05ACCF59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B3581F4-ABA8-420B-A530-6DCD05ACCF59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
