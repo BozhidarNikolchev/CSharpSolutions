@@ -1,4 +1,6 @@
-﻿namespace Demo;
+﻿using System.Globalization;
+
+namespace Demo;
 
 class Program
 {
@@ -44,8 +46,34 @@ class Program
         //
         // states["US"] = new Dictionary<string, int>();
         // states["US"]["Chicago"] = 200000;
-        
-        
 
+        
+        // HashSet<T> -> guarantees every element to be unique!
+        // Works with a function which uses hash function
+         // for every element and thus they cannot be copied 
+
+         // HashSet<int> uniqueNums = new HashSet<int>();
+         // uniqueNums.Add(3);
+         // uniqueNums.Add(3);
+         // uniqueNums.Add(3);
+         // uniqueNums.Add(3);
+         // uniqueNums.Add(10000);
+         //
+         // Console.WriteLine(uniqueNums.Count);
+         // Console.WriteLine(uniqueNums.Contains(3));
+         // uniqueNums.Remove(3);
+         // Console.WriteLine(uniqueNums.Count);
+
+         /* SortedSet<string> names = new SortedSet<string>();
+         names.Add("John");
+         names.Add("Pepi");
+         names.Add("Kiki");
+
+         Console.WriteLine(names.Count);
+         foreach (var name in names)
+         {
+             Console.WriteLine(name);
+         } */
     } 
-}
+} 
+
