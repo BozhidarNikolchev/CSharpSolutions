@@ -48,12 +48,10 @@ class Program
         // states["US"]["Chicago"] = 200000;
 
         
-<<<<<<< HEAD
-=======
+
         // HashSet<T> -> guarantees every element to be unique!
         // Works with a function which uses hash function
          // for every element and thus they cannot be copied 
->>>>>>> c27cb6107d63cba97b16a91486dc2cacd114cb37
 
          // HashSet<int> uniqueNums = new HashSet<int>();
          // uniqueNums.Add(3);
