@@ -1,80 +1,80 @@
-﻿using System.Globalization;
+﻿//using System.Globalization;
 
-namespace Demo;
+//namespace Demo;
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        // Dictionary<string, string> phoneNumbers = new Dictionary<string, string>();
+//class Program
+//{
+//    static void Main(string[] args)
+//    {
+//        // Dictionary<string, string> phoneNumbers = new Dictionary<string, string>();
 
-        // var phoneNumbers = new Dictionary<string, string>();
+//        // var phoneNumbers = new Dictionary<string, string>();
 
-        // var names = new Dictionary<string, double>();
-        // names["Maria"] = 4.5;
-        // names["Maria"] = 6.3;
-        // names["Pepi"] = 5.2;
-        // names["Gogi"] = 6.3;
+//        // var names = new Dictionary<string, double>();
+//        // names["Maria"] = 4.5;
+//        // names["Maria"] = 6.3;
+//        // names["Pepi"] = 5.2;
+//        // names["Gogi"] = 6.3;
 
-        // Console.WriteLine(string.Join(" ", names.Values));
+//        // Console.WriteLine(string.Join(" ", names.Values));
 
-        // foreach (var person in  names)
-        // {
-        //     string name = person.Key;
-        //     double grade = person.Value;
-        //
-        //     Console.WriteLine($"{name} -> {grade}");
-        // }
+//        // foreach (var person in  names)
+//        // {
+//        //     string name = person.Key;
+//        //     double grade = person.Value;
+//        //
+//        //     Console.WriteLine($"{name} -> {grade}");
+//        // }
 
-        // List<int> nums = new List<int>(){ 1, 32, 59, 6, 700, 9 };
-        //
-        // nums = nums.OrderBy(num => num).ToList();
-        // Console.WriteLine(string.Join(", ", nums));
-        //
-        // var result  = nums.OrderByDescending(num => num).ToList();
-        // Console.WriteLine(string.Join(", ", nums));
+//        // List<int> nums = new List<int>(){ 1, 32, 59, 6, 700, 9 };
+//        //
+//        // nums = nums.OrderBy(num => num).ToList();
+//        // Console.WriteLine(string.Join(", ", nums));
+//        //
+//        // var result  = nums.OrderByDescending(num => num).ToList();
+//        // Console.WriteLine(string.Join(", ", nums));
 
-        // var names = new Dictionary<string, double>();
-        // names["Maria"] = 4.5;
-        // names["Maria"] = 6.3;
-        // names["Pepi"] = 5.2;
-        // names["Gogi"] = 6.3;
-
-        
-        //nestedDictionary 
-        // var states = new Dictionary<string, Dictionary<string, int>>();
-        //
-        // states["US"] = new Dictionary<string, int>();
-        // states["US"]["Chicago"] = 200000;
+//        // var names = new Dictionary<string, double>();
+//        // names["Maria"] = 4.5;
+//        // names["Maria"] = 6.3;
+//        // names["Pepi"] = 5.2;
+//        // names["Gogi"] = 6.3;
 
         
+//        //nestedDictionary 
+//        // var states = new Dictionary<string, Dictionary<string, int>>();
+//        //
+//        // states["US"] = new Dictionary<string, int>();
+//        // states["US"]["Chicago"] = 200000;
 
-        // HashSet<T> -> guarantees every element to be unique!
-        // Works with a function which uses hash function
-         // for every element and thus they cannot be copied 
+        
 
-         // HashSet<int> uniqueNums = new HashSet<int>();
-         // uniqueNums.Add(3);
-         // uniqueNums.Add(3);
-         // uniqueNums.Add(3);
-         // uniqueNums.Add(3);
-         // uniqueNums.Add(10000);
-         //
-         // Console.WriteLine(uniqueNums.Count);
-         // Console.WriteLine(uniqueNums.Contains(3));
-         // uniqueNums.Remove(3);
-         // Console.WriteLine(uniqueNums.Count);
+//        // HashSet<T> -> guarantees every element to be unique!
+//        // Works with a function which uses hash function
+//         // for every element and thus they cannot be copied 
 
-         /* SortedSet<string> names = new SortedSet<string>();
-         names.Add("John");
-         names.Add("Pepi");
-         names.Add("Kiki");
+//         // HashSet<int> uniqueNums = new HashSet<int>();
+//         // uniqueNums.Add(3);
+//         // uniqueNums.Add(3);
+//         // uniqueNums.Add(3);
+//         // uniqueNums.Add(3);
+//         // uniqueNums.Add(10000);
+//         //
+//         // Console.WriteLine(uniqueNums.Count);
+//         // Console.WriteLine(uniqueNums.Contains(3));
+//         // uniqueNums.Remove(3);
+//         // Console.WriteLine(uniqueNums.Count);
 
-         Console.WriteLine(names.Count);
-         foreach (var name in names)
-         {
-             Console.WriteLine(name);
-         } */
-    } 
-} 
+//         /* SortedSet<string> names = new SortedSet<string>();
+//         names.Add("John");
+//         names.Add("Pepi");
+//         names.Add("Kiki");
+
+//         Console.WriteLine(names.Count);
+//         foreach (var name in names)
+//         {
+//             Console.WriteLine(name);
+//         } */
+//    } 
+//} 
 
