@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RageExpenses", "RageExpenses\RageExpenses.csproj", "{CCA1E6B3-F8F5-426F-838E-732F349AEA95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders", "Orders\Orders.csproj", "{2C68FFF7-4CAE-4561-8F30-D1B6CE038281}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCA1E6B3-F8F5-426F-838E-732F349AEA95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCA1E6B3-F8F5-426F-838E-732F349AEA95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCA1E6B3-F8F5-426F-838E-732F349AEA95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCA1E6B3-F8F5-426F-838E-732F349AEA95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C68FFF7-4CAE-4561-8F30-D1B6CE038281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C68FFF7-4CAE-4561-8F30-D1B6CE038281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C68FFF7-4CAE-4561-8F30-D1B6CE038281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C68FFF7-4CAE-4561-8F30-D1B6CE038281}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
