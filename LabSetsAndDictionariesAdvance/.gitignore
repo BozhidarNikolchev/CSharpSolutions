@@ -1,0 +1,39 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+
+# Rider project settings
+.idea/
+*.iml
+
+# Build output
+bin/
+obj/
+out/
+
+# NuGet packages
+*.nupkg
+packages/
+
+# ASP.NET Core
+wwwroot/
+
+# User-specific files
+*.user
+*.suo
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Other common files
+*.db
+*.pdb
+*.dll
+*.exe
