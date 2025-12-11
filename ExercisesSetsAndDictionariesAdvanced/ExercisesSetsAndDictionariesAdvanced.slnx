@@ -4,4 +4,5 @@
   <Project Path="PeriodicTable/PeriodicTable.csproj" Id="fbc45170-552a-4018-a245-52b8277aea29" />
   <Project Path="SetsOfElements/SetsOfElements.csproj" Id="e3151670-b957-499a-87db-e0572615513e" />
   <Project Path="UniqueUsernames/UniqueUsernames.csproj" />
+  <Project Path="Wardrobe\Wardrobe.csproj" />
 </Solution>
