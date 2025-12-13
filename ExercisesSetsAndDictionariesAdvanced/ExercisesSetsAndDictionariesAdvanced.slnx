@@ -2,6 +2,7 @@
   <Project Path="CountSymbols/CountSymbols.csproj" Id="10850225-75a3-4c3e-a052-53059982c39d" />
   <Project Path="Demo/Demo.csproj" />
   <Project Path="EvenTimes/EvenTimes.csproj" Id="642c1c76-0ba2-4281-b36f-23d852cd966c" />
+  <Project Path="ForceBook/ForceBook.csproj" Id="7c539150-5790-43d4-940d-7dc210f2f7c6" />
   <Project Path="PeriodicTable/PeriodicTable.csproj" Id="fbc45170-552a-4018-a245-52b8277aea29" />
   <Project Path="Ranking/Ranking.csproj" />
   <Project Path="SetsOfElements/SetsOfElements.csproj" Id="e3151670-b957-499a-87db-e0572615513e" />
