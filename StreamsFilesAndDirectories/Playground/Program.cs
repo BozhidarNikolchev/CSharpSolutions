@@ -1,5 +1,5 @@
-﻿using var reader = new StreamReader(@".\Data\Input.txt");
-using var writer = new StreamWriter(@".\Data\Output.txt", true);
+﻿using var reader = new StreamReader(@"..\..\..\Data\Input.txt");
+using var writer = new StreamWriter(@"..\..\..\Data\Output.txt", true);
 
     int counter = 1;
 

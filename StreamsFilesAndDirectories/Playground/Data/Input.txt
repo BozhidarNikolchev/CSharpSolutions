@@ -1,0 +1,5 @@
+This is a test file for streams.
+
+Hello test file!
+
+Made by Bobi.
