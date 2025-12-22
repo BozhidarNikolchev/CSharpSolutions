@@ -110,11 +110,66 @@
 //Console.WriteLine(resultText);
 
 
+
 // Crypt 
 
-int num = 100;
-int secNum = 443;
+//int num = 100;
+//int pw = 443;
 
-var encrypted = num ^ secNum;
-//Console.WriteLine(encrypted); // 479
-Console.WriteLine(encrypted ^ secNum);
+//var encrypted = num ^ pw;
+
+////Console.WriteLine(encrypted); // 479
+//Console.WriteLine(encrypted ^ pw); // 100
+
+
+// Encrypting files
+
+//int password = 187;
+
+//var byteContent = File.ReadAllBytes("cats.jpg");
+
+//for (int i = 0; i < byteContent.Length; i++)
+//{
+//    byteContent[i] = (byte)(byteContent[i] ^ password);
+//}
+
+//File.WriteAllBytes("cats-encrypted.jpg", byteContent);
+
+// Decrypting files
+
+//int password = 187;
+
+//var byteContent = File.ReadAllBytes("cats-encrypted.jpg");
+
+//for (int i = 0; i < byteContent.Length; i++)
+//{
+//    byteContent[i] = (byte)(byteContent[i] ^ password);
+//}
+
+//File.WriteAllBytes("cats-decrypted.jpg", byteContent);
+
+
+
+// Directories - create, delete, get files, get directories
+
+//Console.WriteLine(Directory.GetCurrentDirectory());
+
+//Directory.CreateDirectory(@"My new directory\ Sub directory\ More directories\ Final directory");
+
+//Directory.Delete("My new directory", true);
+
+//var currentDirectory = Directory.GetCurrentDirectory();
+//var files = Directory.GetFiles(currentDirectory);
+//foreach (var file in files)
+//{
+//    var fileInfo = new FileInfo(file);
+//    Console.WriteLine(fileInfo.Length); // Many methods and properties
+//}
+
+var currentDirectory = Directory.GetCurrentDirectory();
+var directories = Directory.GetDirectories(currentDirectory);
+foreach (var directory in directories)
+{
+    var directoryInfo = new DirectoryInfo(directory);
+    Console.WriteLine(directoryInfo.Parent);
+}
