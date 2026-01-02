@@ -163,13 +163,13 @@
 //foreach (var file in files)
 //{
 //    var fileInfo = new FileInfo(file);
-//    Console.WriteLine(fileInfo.Length); // Many methods and properties
+//    Console.WriteLine(fileInfo.Length); // Many properties
 //}
 
-var currentDirectory = Directory.GetCurrentDirectory();
-var directories = Directory.GetDirectories(currentDirectory);
-foreach (var directory in directories)
-{
-    var directoryInfo = new DirectoryInfo(directory);
-    Console.WriteLine(directoryInfo.Parent);
-}
+//var currentDirectory = Directory.GetCurrentDirectory();
+//var directories = Directory.GetDirectories(currentDirectory);
+//foreach (var directory in directories)
+//{
+//    var directoryInfo = new DirectoryInfo(directory);
+//    Console.WriteLine(directoryInfo.Parent);
+//}
