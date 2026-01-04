@@ -17,20 +17,18 @@
         {
             using var readerFirstFile = new StreamReader(firstInputFilePath);
             using var readerSecondFile = new StreamReader(secondInputFilePath);
+            using var writerOutputFile = new StreamWriter(outputFilePath);
 
             while (!readerFirstFile.EndOfStream || !readerSecondFile.EndOfStream)
             {
-                // Check EACH file individually
                 if (!readerFirstFile.EndOfStream)
                 {
-                    string? line1 = readerFirstFile.ReadLine();
-                    if (line1 != null) Console.WriteLine(line1);
+                    writerOutputFile.WriteLine(readerFirstFile.ReadLine());
                 }
 
                 if (!readerSecondFile.EndOfStream)
                 {
-                    string? line2 = readerSecondFile.ReadLine();
-                    if (line2 != null) Console.WriteLine(line2);
+                    writerOutputFile.WriteLine(readerSecondFile.ReadLine());
                 }
             }
         }
