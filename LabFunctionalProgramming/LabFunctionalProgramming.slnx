@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="AddVAT/AddVAT.csproj" />
+  <Project Path="CountUppercaseWords/CountUppercaseWords.csproj" />
+  <Project Path="FilterByAge/FilterByAge.csproj" Id="b6ae6a88-8150-46c7-812e-8e58a23c093b" />
+  <Project Path="SortEvenNumbers/SortEvenNumbers.csproj" />
+  <Project Path="SumNumbers/SumNumbers.csproj" />
+</Solution>
