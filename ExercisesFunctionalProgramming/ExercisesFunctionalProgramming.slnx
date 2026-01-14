@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ActionPrint/ActionPrint.csproj" />
+  <Project Path="CustomMinFunction/CustomMinFunction.csproj" />
+  <Project Path="FindEvensOrOdds/FindEvensOrOdds.csproj" />
+  <Project Path="KnightsOfHonor/KnightsOfHonor.csproj" />
+</Solution>
